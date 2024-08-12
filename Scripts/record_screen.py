@@ -16,6 +16,7 @@ def record_screen(video_file='test_login.mp4', recording_duration=1):
     out, monitor = start_recording(filename=video_file)
     start_time = time.time()
 
+
     with mss.mss() as sct:
         while True:
             # Captura la pantalla
