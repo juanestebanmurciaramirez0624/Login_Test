@@ -1,0 +1,5 @@
+# Ignorar el directorio chromedriver-win64
+/chromedriver-win64/
+
+# Ignorar el directorio Login
+/Login/
